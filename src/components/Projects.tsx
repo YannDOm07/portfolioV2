@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Brain, Zap, Gamepad2, ArrowUpRight, Users } from 'lucide-react';
+import { Github, Brain, Zap, Gamepad2, ArrowUpRight, Users, Car } from 'lucide-react';
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import VideoModal from './VideoModal';
 
@@ -65,8 +65,24 @@ const Projects = () => {
       icon: Users,
       color: "from-blue-500 to-teal-500",
       liveUrl: "#",
-      githubUrl: "#", // Placeholder as requested
-      readTime: "Demo Video"
+      readTime: "Demo Video",
+      videoSrc: "/videos/demotok-demo.mp4"
+    },
+    {
+      id: 5,
+      title: "AutoWash CI - Gestion Premium",
+      category: "SaaS & Gestion",
+      problem: "Suivi client inefficace et processus de paiement lourds dans les stations de lavage.",
+      solution: "Application complète de gestion avec espace client, tableau de bord admin et POS intuitif.",
+      result: "Digitalisation à 100% des workflows et expérience client améliorée.",
+      image: "https://images.pexels.com/photos/372810/pexels-photo-372810.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["React.js", "Node.js", "Tailwind CSS", "MySQL", "UI Premium"],
+      icon: Car,
+      color: "from-cyan-400 to-blue-500",
+      liveUrl: "#",
+      githubUrl: "https://github.com/YannDOm07/autowash-ci",
+      readTime: "Demo Video",
+      videoSrc: "/videos/autowash-demo.mp4"
     }
   ];
 
@@ -180,7 +196,7 @@ const Projects = () => {
                         className="px-4 py-2 rounded-xl bg-red-600 text-white text-xs font-bold flex items-center gap-2 hover:bg-red-700 transition-colors shadow-lg animate-pulse"
                         onClick={() => {
                           setSelectedVideo({ 
-                            src: '/videos/demotok-demo.mp4', 
+                            src: project.videoSrc || '/videos/demotok-demo.mp4', 
                             title: project.title 
                           });
                           setIsVideoModalOpen(true);

@@ -74,6 +74,33 @@ const Skills = () => {
 
   const certificates = [
     {
+      id: 14,
+      title: "HCIA-AI V4.0 Course",
+      issuer: "Huawei ICT Academy",
+      date: "23 Février 2026",
+      image: "/certificates/hcia-ai.png",
+      officialLink: "#",
+      description: "Certification Huawei démontrant la maîtrise des technologies fondamentales de l'Intelligence Artificielle, le framework MindSpore, l'apprentissage automatique et l'apprentissage profond."
+    },
+    {
+      id: 13,
+      title: "HCIA-Cloud Service V3.5 Course",
+      issuer: "Huawei ICT Academy",
+      date: "22 Février 2026",
+      image: "/certificates/hcia-cloud-service.png",
+      officialLink: "#",
+      description: "Certification Huawei attestant d'une compréhension globale de l'architecture cloud et de la capacité à utiliser et gérer les services cloud Huawei (compute, storage, network, bases de données)."
+    },
+    {
+      id: 12,
+      title: "HCIA-Cloud Computing V5.5 Course",
+      issuer: "Huawei ICT Academy",
+      date: "22 Février 2026",
+      image: "/certificates/hcia-cloud-computing.png",
+      officialLink: "#",
+      description: "Certification Huawei validant les connaissances sur les concepts du Cloud Computing, les technologies de virtualisation (compute, network, storage) et les tendances du cloud."
+    },
+    {
       id: 11,
       title: "Participation au Hackathon - DevFest 2025",
       issuer: "GDG Cloud Abidjan & Cocody",
