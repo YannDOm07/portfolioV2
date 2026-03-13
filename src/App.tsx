@@ -4,7 +4,6 @@ import Header from './components/Header';
 import CustomCursor from './components/CustomCursor';
 import InteractiveBackground from './components/InteractiveBackground';
 
-// Lazy load components
 const Hero = lazy(() => import('./components/Hero'));
 const About = lazy(() => import('./components/About'));
 const Skills = lazy(() => import('./components/Skills'));
