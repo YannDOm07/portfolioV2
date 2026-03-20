@@ -36,7 +36,7 @@ const About = () => {
       {/* Background Elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-electric-blue/5 skew-x-12 blur-3xl -z-10" />
       
-      <div className="container mx-auto px-6">
+      <div className="w-full max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 xl:px-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

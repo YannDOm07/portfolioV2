@@ -6,6 +6,16 @@
 
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 body {
@@ -14,6 +24,9 @@ body {
   color: #f8f6f0;
   cursor: none; /* Hide default cursor for custom one */
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 .glass {

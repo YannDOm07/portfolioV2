@@ -214,7 +214,7 @@ const Skills = () => {
          <div className="absolute top-1/2 left-0 w-64 h-64 bg-neon-orange/10 rounded-full blur-3xl -z-10" />
          <div className="absolute bottom-0 right-0 w-96 h-96 bg-electric-blue/5 rounded-full blur-3xl -z-10" />
 
-        <div className="container mx-auto px-6">
+        <div className="w-full max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 xl:px-20">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}

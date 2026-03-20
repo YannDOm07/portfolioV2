@@ -301,7 +301,7 @@ const Lab = () => {
         [LAB] uptime: ∞
       </div>
 
-      <div className="container mx-auto px-6">
+      <div className="w-full max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 xl:px-20">
 
         {/* ── HEADER ── */}
         <motion.div

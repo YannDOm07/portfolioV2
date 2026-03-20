@@ -40,7 +40,7 @@ const Header = () => {
         className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-electric-blue to-neon-orange origin-left"
         style={{ scaleX: scrollProgress, width: '100%' }}
       />
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="w-full max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 xl:px-20 py-4">
         <div className="flex items-center justify-between">
           <motion.div
             whileHover={{ scale: 1.05 }}

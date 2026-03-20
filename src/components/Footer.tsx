@@ -4,7 +4,7 @@ import { Heart, Code, Coffee } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-dark-bg border-t border-dark-border py-12">
-      <div className="container mx-auto px-6">
+      <div className="w-full max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

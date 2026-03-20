@@ -102,7 +102,7 @@ const Hero = () => {
       </div>
 
       {/* ═══ TWO-COLUMN GRID ═══ */}
-      <div className="container mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-[55fr_45fr] items-center gap-12 lg:gap-6 min-h-screen" style={{ padding: '0 6vw' }}>
+      <div className="w-full max-w-[1400px] mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-[55fr_45fr] items-center gap-12 lg:gap-6 min-h-screen px-6 md:px-10 lg:px-16 xl:px-20">
 
         {/* ──────── LEFT COLUMN ──────── */}
         <div className="flex flex-col items-start pt-28 lg:pt-0">
