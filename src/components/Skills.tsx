@@ -24,7 +24,8 @@ const Skills = () => {
         { name: "JavaScript", color: "text-yellow-400", hasProjects: true },
         { name: "TypeScript", color: "text-blue-500", hasProjects: true },
         { name: "Python", color: "text-green-500", hasProjects: true },
-        { name: "HTML/CSS", color: "text-orange-500" }
+        { name: "HTML/CSS", color: "text-orange-500" },
+        { name: "Java", color: "text-red-500", hasProjects: true }
       ]
     },
     {
@@ -37,7 +38,8 @@ const Skills = () => {
         { name: "React Native", color: "text-blue-400", hasProjects: true },
         { name: "Node.js", color: "text-green-600", hasProjects: true },
         { name: "Next.js", color: "text-white", hasProjects: true },
-        { name: "Tailwind", color: "text-cyan-300", hasProjects: true }
+        { name: "Tailwind", color: "text-cyan-300", hasProjects: true },
+        { name: "Spring Boot", color: "text-green-400", hasProjects: true }
       ]
     },
     {

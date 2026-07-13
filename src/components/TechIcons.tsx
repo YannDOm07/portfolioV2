@@ -23,6 +23,8 @@ export const TechIcon = ({ name, className = "w-10 h-10" }: { name: string, clas
     "VS Code": "vscode/vscode-original",
     "Machine Learning": "tensorflow/tensorflow-original", // Using TensorFlow as representative
     "Deep Learning": "pytorch/pytorch-original", // Using PyTorch as representative
+    "Java": "java/java-original",
+    "Spring Boot": "spring/spring-original",
   };
 
   const slug = iconMap[name];

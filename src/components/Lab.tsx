@@ -311,22 +311,21 @@ const Lab = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border mb-6" style={{ backgroundColor: 'rgba(0,212,255,0.08)', borderColor: 'rgba(0,212,255,0.25)' }}>
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-electric-blue opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-electric-blue" />
-            </span>
-            <span className="text-electric-blue font-mono text-[11px] tracking-[3px] uppercase">LABORATOIRE</span>
-          </div>
+          {/* Label */}
+          <p className="text-[13px] tracking-[5px] uppercase text-white/30 font-medium mb-5">
+            Laboratoire
+          </p>
 
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <Zap className="text-electric-blue" size={28} />
-            <h2 className="text-4xl md:text-5xl font-black text-cream font-display tracking-tight">
-              Zone <span className="text-transparent" style={{ background: 'linear-gradient(90deg, #00D4FF, #8B5CF6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Expérimentale</span>
-            </h2>
-          </div>
-          <p className="text-cream/50 max-w-lg mx-auto text-[15px] font-light">
+          {/* Main Title */}
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight">
+            Zone{' '}
+            <span className="bg-gradient-to-r from-[#00D4FF] via-[#8B5CF6] to-[#F97316] bg-clip-text text-transparent">
+              Expérimentale
+            </span>
+          </h2>
+
+          {/* Subtitle */}
+          <p className="mt-5 text-white/35 text-base md:text-lg font-light max-w-lg mx-auto leading-relaxed">
             Mini-outils interactifs. Testez, jouez, explorez.
           </p>
 
