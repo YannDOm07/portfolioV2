@@ -94,9 +94,8 @@ const Hero = () => {
         }
       `}</style>
 
-      {/* Animated Background */}
+      {/* Ambient glow (behind the neural network canvas) */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:14px_24px]" />
         <div className="absolute left-[20%] top-[30%] h-[310px] w-[310px] rounded-full bg-electric-blue opacity-15 blur-[120px]" />
         <div className="absolute right-[15%] bottom-[20%] h-[310px] w-[310px] rounded-full bg-neon-orange opacity-10 blur-[120px]" />
       </div>

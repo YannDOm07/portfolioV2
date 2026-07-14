@@ -80,7 +80,7 @@ const Skills = () => {
       title: "HCIA-AI V4.0 Course",
       issuer: "Huawei ICT Academy",
       date: "23 Février 2026",
-      image: "/certificates/hcia-ai.png",
+      image: "/certificates/hcia-ai.jpeg",
       officialLink: "#",
       description: "Certification Huawei démontrant la maîtrise des technologies fondamentales de l'Intelligence Artificielle, le framework MindSpore, l'apprentissage automatique et l'apprentissage profond."
     },
@@ -89,7 +89,7 @@ const Skills = () => {
       title: "HCIA-Cloud Service V3.5 Course",
       issuer: "Huawei ICT Academy",
       date: "22 Février 2026",
-      image: "/certificates/hcia-cloud-service.png",
+      image: "/certificates/hcia-cloud-service.jpeg",
       officialLink: "#",
       description: "Certification Huawei attestant d'une compréhension globale de l'architecture cloud et de la capacité à utiliser et gérer les services cloud Huawei (compute, storage, network, bases de données)."
     },
@@ -98,7 +98,7 @@ const Skills = () => {
       title: "HCIA-Cloud Computing V5.5 Course",
       issuer: "Huawei ICT Academy",
       date: "22 Février 2026",
-      image: "/certificates/hcia-cloud-computing.png",
+      image: "/certificates/hcia-cloud-computing.jpeg",
       officialLink: "#",
       description: "Certification Huawei validant les connaissances sur les concepts du Cloud Computing, les technologies de virtualisation (compute, network, storage) et les tendances du cloud."
     },
