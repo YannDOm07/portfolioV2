@@ -244,7 +244,7 @@ const Hero = () => {
               >
                 <div className="w-full h-full rounded-full bg-dark-bg overflow-hidden">
                   <img
-                    src="/image.jpeg"
+                    src="/image3.png"
                     alt="Assohoun Yannick"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
