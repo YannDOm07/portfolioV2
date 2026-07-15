@@ -88,7 +88,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://www.linkedin.com/',
+      href: 'https://www.linkedin.com/in/yannick-assohoun-245875320/',
       color: 'hover:text-blue-400'
     },
     {

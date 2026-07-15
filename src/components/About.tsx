@@ -97,7 +97,7 @@ const About = () => {
             </div>
 
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yannick-assohoun-245875320/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ x: 10 }}
